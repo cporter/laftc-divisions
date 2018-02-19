@@ -22,6 +22,10 @@ def main():
         opr[team] = o
         name[team] = n
     teams = [line.strip() for line in file(TEAMS_FILE)]
+    for team in teams:
+      if team not in opr:
+        opr[team] = 0
+        name[team] = 'Not Ready'
     for i, team in enumerate(sorted(teams, key = opr.get, reverse = True)):
         if 0 == i % 2:
             division = 'Galielo'
