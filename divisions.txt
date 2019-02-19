@@ -1,0 +1,48 @@
+Galielo	4628	Suit Bots
+Odyssey	10298	Brain Stormz
+Galielo	14295	Operation T.A.C.
+Odyssey	6436	AlphaGenesis
+Galielo	5921	La Canada Engineering Club
+Odyssey	12861	RoboHeroes
+Galielo	9804	Bomb Squad
+Odyssey	542	WHS Robotics
+Galielo	12525	Wolf Corp
+Odyssey	4625	Kings and Queens
+Galielo	9873	PikaTech
+Odyssey	9512	Hippie Bots
+Galielo	5942	Team Torch
+Odyssey	3526	Marlbots
+Galielo	12765	Electric Dragons
+Odyssey	13046	BugByte Robotics
+Galielo	5380	ElectroMedics Red
+Odyssey	10006	Spudnik
+Galielo	5285	Robo Knights
+Odyssey	7553	Team Loki
+Galielo	15046	Incognito Robotics
+Odyssey	13543	LMS Flyers
+Galielo	11337	Robonauts
+Odyssey	5827	Chimera Gears
+Galielo	11825	Graveyard Shift
+Odyssey	9220	Rancho Rebel Robotics
+Galielo	5011	Bot Squad
+Odyssey	7832	Gear Gurus
+Galielo	7831	Titan
+Odyssey	6325	Aluminati
+Galielo	8396	Secret Team
+Odyssey	8472	ROBOTATOES
+Galielo	14921	AlphaOmega
+Odyssey	9836	ElectroMedics Gold
+Galielo	5325	The Muses
+Odyssey	14863	GALA 
+Galielo	6371	Machine Kings
+Odyssey	9254	STEM Punks
+Galielo	15305	Cerritos Dons
+Odyssey	7227	Scorpion Robotics
+Galielo	12675	Hermit Social Club
+Odyssey	10673	Spudbot
+Galielo	11385	ChidoriBots
+Odyssey	9881	Golden Gears
+Galielo	14531	The 2nd Rebellion
+Odyssey	8564	Lockdown
+Galielo	11379	PowerOp
+Odyssey	5218	Javabots
