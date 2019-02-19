@@ -1,18 +1,18 @@
-SCORES = 'http://ftcstats.org/california_la.html'
+SCORES = 'http://ftcstats.org/california.html'
 TEAMS_FILE = 'regionals_teams.txt'
 
 def oprs():
     from bs4 import BeautifulSoup
-    import urllib2
-    soup = BeautifulSoup(urllib2.urlopen(SCORES).read(), 'html.parser')
+    import requests
+    soup = BeautifulSoup(requests.get(SCORES).text, 'html.parser')
 
     table = soup.find_all('table')[1]
     for row in table.find_all('tr'):
         cols = [x.get_text() for x in row.find_all('td')]
         if 18 > len(cols):
             continue
-        team, name, opr, tourney = cols[1], cols[2], cols[3], cols[19]
-        if 'inter' in tourney.lower():
+        team, name, opr, tourney = cols[1], cols[2], cols[4], cols[19]
+        if 'ilt' in tourney.lower():
             yield team, name, float(opr)
 
 def main():
@@ -21,7 +21,7 @@ def main():
     for team, n, o in oprs():
         opr[team] = o
         name[team] = n
-    teams = [line.strip() for line in file(TEAMS_FILE)]
+    teams = [line.strip() for line in open(TEAMS_FILE)]
     for team in teams:
       if team not in opr:
         opr[team] = 0
